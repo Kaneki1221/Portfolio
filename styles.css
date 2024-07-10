@@ -1,0 +1,172 @@
+/* Custom styles for the portfolio */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.about-me p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.section h2 {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.education .tree {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.education .node {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.education .details {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.skills .skill-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skills .skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skills .skill-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.certifications .node {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #28a745;
+    margin-bottom: 5px;
+}
+
+.certifications .details {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.certifications .tree ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.certifications .tree ul li {
+    margin-bottom: 20px;
+}
+
+.certifications .node::after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #28a745;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.certifications .node:hover {
+    color: #007bff;
+}
+
+.portfolio .portfolio-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio .portfolio-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.portfolio .portfolio-item p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.portfolio .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
